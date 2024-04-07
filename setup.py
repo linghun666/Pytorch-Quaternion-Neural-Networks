@@ -10,6 +10,6 @@ setup(
     version='1',
     license='GNU v3.0',
     long_description=DESCRIPTION,
-    packages=find_packages() + find_packages('core_qnn/'),
+    packages=find_packages() + find_packages('core_qnn'),
     package_dir={'core_qnn': 'core_qnn'},
 )
